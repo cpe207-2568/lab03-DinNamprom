@@ -1,9 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body class="bg-body-secondary">
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link" href="./pages/Exprience.html">Exprience</a>
+            <a class="nav-link" href="./pages/Gallery.html">Gallery</a>
+            <a class="nav-link" href="./pages/Contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+      <div class="row m-5">
+        <div  class="col-6 text-end">
+          <img src="./pictures/IMG_0552.jpg" alt="ProfilePicture" class="img-fluid rounded-circle px-auto" style="width: 250px;">
+        </div>
+        <div  class="col-4 pt-5">
+          <p class="fs-2">Komneth Namprom</p>
+          <p class="fs-7 text-light-emphasis text-break" style="width: 55%;">Hello my name is Komneth Namprom.I'm study at Chaing Mai University in Engineering faculty with Computer Major.</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="fs-3 text-center">Skill</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap align-item-start">
+        <div class="card" style="width: 18rem;">
+          <img src="./pictures/code.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Coding Language</h5>
+            <p class="card-text text-light-emphasis">I can write Python, Java, JavaScript, and C++.</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./pictures/web.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Website Development</h5>
+            <p class="card-text text-light-emphasis">I have used HTML, CSS, and React in website development.</h5>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./pictures/ui.png" class="card-img-top" alt="">
+          <div class="card-body">
+            <h5 class="card-title">UX/UI Design</h5>
+            <p class="card-text text-light-emphasis">The most importent element most of development.I have worked since highschool in project.</h5>
+          </div>
+        </div>
+    </div>
+
+  </body>
 </html>
